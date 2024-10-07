@@ -6,7 +6,7 @@ With the CN the daily riunoff is calculated to produce a water budgest (PR = P -
 
 An exemple of processing with data for 2023 is disponible here: 
 
-To apply the SCS method, the first step involves calculating the Curve Number (CN). In this example, the Land Cover Classification project (available at MapBiomas) and the Soil Grid (250 m) (download instructions here) were used to generate a spatial CN utilizing the terra package. Detailed documentation of the SCS Method can be found in the USDA's Urban Hydrology for Small Watersheds.
+To apply the SCS method, the first step involves calculating the Curve Number (CN). In this example, the Land Cover Classification project ([available at MapBiomas](https://mapbiomas.org/)) and the Soil Grid (250 m) (download instructions here) were used to generate a spatial CN utilizing the terra package. Detailed documentation of the SCS Method can be found in the USDA's Urban Hydrology for Small Watersheds.
 
 With the CN calculated, the daily runoff is computed to produce a water budget (PR = P - (ETP + Roff)). Precipitation data is sourced from GPM, while evapotranspiration data is from GLDAS 2.1, both available in NASA's GES DISC (download instructions here).
 
